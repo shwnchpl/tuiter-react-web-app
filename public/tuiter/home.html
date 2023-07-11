@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tuiter - Home</title>
+  </head>
+  <body>
+    <table>
+      <tr valign="top">
+
+        <!-- Navigation sidebar -->
+        <td>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="notifications.html">Notifications</a></li>
+            <li><a href="messages.html">Messages</a></li>
+            <li><a href="bookmarks.html">Bookmarks</a></li>
+            <li><a href="lists.html">Lists</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="tuit.html">Tuit</a></li>
+            <li><a href="reply.html">Reply</a></li>
+          </ul>
+        </td>
+
+        <!-- Main content -->
+        <td>
+
+          <!-- Header -->
+          <a href="navigation.html">Back</a>
+          <h1>Tuiter</h1>
+          <h2>Home</h2>
+
+          <!-- New tuit prompt -->
+          <img src="assets/phantom-phreak.png" width="48px" height="48px" />
+          <br />
+          <form id="new-tuit">
+            <textarea id="new-tuit-text" placeholder="Whats happening?"></textarea>
+            <br />
+            <select id="new-tuit-repliers">
+              <option value="EVERYONE">Everyone can reply</option>
+              <option value="FOLLOWING" selected>People you follow</option>
+              <option value="MENTIONED">Only people you mention</option>
+            </select>
+            <hr />
+            <input id="new-tuit-image" type="file" />
+            <button type="submit">Tuit</button>
+            <hr />
+          </form>
+
+          <!-- Feed -->
+          <ul>
+            <li>
+              <a href="topic.html">Topic 123</a>
+              <br />
+              <img src="assets/zero-cool.png" width="48px" height="48px" />
+              <a href="profile.html">Shawn</a>
+              @shawn - 2h
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <a href="reply.html">Reply</a> 123 |
+              <a href="retuit.html">Retuit</a> 234 |
+              <a href="like.html">Like</a> 345 |
+              <a href="share.html">Share</a>
+            </li><br />
+            <li>
+              <a href="topic.html">Topic 234</a>
+              <br />
+              <img src="assets/acid-burn.png" width="48px" height="48px" />
+              <a href="profile.html">Kate</a>
+              @kate - 4h
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <a href="reply.html">Reply</a> 123 |
+              <a href="retuit.html">Retuit</a> 234 |
+              <a href="like.html">Like</a> 345 |
+              <a href="share.html">Share</a>
+            </li><br />
+            <li>
+              <a href="topic.html">Topic 1337</a>
+              <br />
+              <img src="assets/cereal-killer.png" width="48px" height="48px" />
+              <a href="profile.html">Emmanuel</a>
+              @emmanuel - 5h
+              <p>
+                Hack the planet!
+                <br />
+                <iframe width="560" height="315"
+                  src="https://www.youtube.com/embed/u3CKgkyc7Qo"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen>
+                </iframe>
+              </p>
+              <a href="reply.html">Reply</a> 1992 |
+              <a href="retuit.html">Retuit</a> 1995 |
+              <a href="like.html">Like</a> 1984 |
+              <a href="share.html">Share</a>
+            </li><br />
+          </ul>
+        </td>
+
+      </tr>
+    </table>
+  </body>
+</html>

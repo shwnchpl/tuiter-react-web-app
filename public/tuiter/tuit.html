@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tuiter - Tuit</title>
+  </head>
+  <body>
+
+    <!-- Header -->
+    <a href="navigation.html">Back</a>
+    <h1>Tuiter</h1>
+    <h2>Tuit</h2>
+
+    <!-- New tuit prompt -->
+    <img src="assets/phantom-phreak.png" width="48px" height="48px" />
+    <br />
+    <form id="new-tuit">
+      <textarea id="new-tuit-text" placeholder="Whats happening?"></textarea>
+      <br />
+      <select id="new-tuit-repliers">
+        <option value="EVERYONE">Everyone can reply</option>
+        <option value="FOLLOWING" selected>People you follow</option>
+        <option value="MENTIONED">Only people you mention</option>
+      </select>
+      <hr />
+      <input id="new-tuit-image" type="file" />
+      <button type="submit">Tuit</button>
+      <hr />
+    </form>
+
+  </body>
+</html>
